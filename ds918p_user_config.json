@@ -5,7 +5,13 @@
         "sn": "1780PDN013777",
         "mac1": "001132013777"
     },
-    "synoinfo": {},
+    "synoinfo": {
+      "maxdisks": "4",
+      "maxlanport": "1",
+      "usbportcfg": "0x30000",
+      "esataportcfg": "0x0",
+      "internalportcfg": "0xffff"
+    },
     "ramdisk_copy": {},
     "extensions": []
 }
