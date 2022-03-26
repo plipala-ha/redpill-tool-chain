@@ -26,12 +26,12 @@ jobs:
         run: chmod 0755 ./redpill_tool_chain.sh
 
       - name: Build docker image
-        run: ./redpill_tool_chain.sh build ds3615xs-7.0-41222
+        run: ./redpill_tool_chain.sh build ds918p-7.0-41222
 
       - name: Create dsm image
-        run: ./redpill_tool_chain.sh auto ds3615xs-7.0-41222
+        run: ./redpill_tool_chain.sh auto ds918p-7.0-41222
 
       - uses: actions/upload-artifact@v2
         with:
-          name: dsm3615
+          name: dsm918
           path: ./images
