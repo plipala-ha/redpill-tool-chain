@@ -1,17 +1,14 @@
 {
     "extra_cmdline": {
-        "pid": "0x8008",
-        "vid": "0x8087",
-        "sn": "1780PDN013777",
-        "mac1": "001132013777"
+      "pid": "0x8008",
+      "vid": "0x8087",
+      "sn": "1780PDN013777",
+      "mac1": "001132013777",
+      "DiskIdxMap": "00",
+      "SataPortMap": "1",
+      "SasIdxMap": "0"
     },
-    "synoinfo": {
-      "maxdisks": "4",
-      "maxlanport": "1",
-      "usbportcfg": "0x30000",
-      "esataportcfg": "0x0",
-      "internalportcfg": "0xffff"
-    },
+    "synoinfo": {},
     "ramdisk_copy": {},
     "extensions": []
 }
