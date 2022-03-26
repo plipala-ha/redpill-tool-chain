@@ -1,9 +1,9 @@
 {
     "extra_cmdline": {
-        "pid": "0x8008",
-        "vid": "0x8087",
-        "sn": "1430LWN005592",
-        "mac1": "001132013777"
+      "pid": "0x3822",
+      "vid": "0x17EF",
+      "sn": "VE4335YGWR159",
+      "mac1": "001132013777"
     },
     "synoinfo": {},
     "ramdisk_copy": {},
